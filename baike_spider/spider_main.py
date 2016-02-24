@@ -3,13 +3,10 @@
 #程序总入口
 import datetime
 
-from baike_spider import url_manager
-
 from baike_spider import html_downloader
-
-from baike_spider import html_parser
-
 from baike_spider import html_outputer
+from baike_spider import html_parser
+from baike_spider import url_manager
 
 
 class SpiderMain(object):
